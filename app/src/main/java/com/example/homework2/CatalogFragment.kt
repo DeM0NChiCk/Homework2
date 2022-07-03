@@ -6,14 +6,22 @@ import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.example.homework2.databinding.FragmentCatalogBinding
+import com.example.homework2.dogs.DogAdapter
+import com.example.homework2.dogs.DogRepository
 
 class CatalogFragment:Fragment(R.layout.fragment_catalog) {
     private var _binding: FragmentCatalogBinding? = null
     private val binding get() = _binding!!
 
+    private var adapter: DogAdapter? = null
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         _binding = FragmentCatalogBinding.bind(view)
+
+        adapter = DogAdapter(DogRepository.dogs)
+        binding.recycler.adapter=adapter
+
 
         with(binding) {
             btnMyFavorites.setOnClickListener{
@@ -23,9 +31,8 @@ class CatalogFragment:Fragment(R.layout.fragment_catalog) {
                     "ARG_TEXT",
                     text
                 )
-
-
                 findNavController().navigate(R.id.action_catalogFragment_to_favoritesFragment,bundle)
+
 
             }
         }

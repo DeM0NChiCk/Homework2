@@ -4,8 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/karp2/AndroidStudioProjects/Homework2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.169" />
+        <entry key="..\:/Users/karp2/AndroidStudioProjects/Homework2/app/src/main/res/drawable/ic_baseline_apps_24.xml" value="0.169" />
         <entry key="..\:/Users/karp2/AndroidStudioProjects/Homework2/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.169" />
+        <entry key="..\:/Users/karp2/AndroidStudioProjects/Homework2/app/src/main/res/drawable/ic_baseline_supervisor_account_24.xml" value="0.169" />
         <entry key="..\:/Users/karp2/AndroidStudioProjects/Homework2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.169" />
+        <entry key="..\:/Users/karp2/AndroidStudioProjects/Homework2/app/src/main/res/drawable/ic_pets_fill0_wght400_grad0_opsz48.xml" value="0.169" />
         <entry key="..\:/Users/karp2/AndroidStudioProjects/Homework2/app/src/main/res/layout/activity_main.xml" value="0.21784420289855072" />
         <entry key="..\:/Users/karp2/AndroidStudioProjects/Homework2/app/src/main/res/layout/fragment_achievements.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/karp2/AndroidStudioProjects/Homework2/app/src/main/res/layout/fragment_catalog.xml" value="0.25416666666666665" />
@@ -14,6 +17,7 @@
         <entry key="..\:/Users/karp2/AndroidStudioProjects/Homework2/app/src/main/res/layout/fragment_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/karp2/AndroidStudioProjects/Homework2/app/src/main/res/layout/fragment_main2.xml" value="0.24010416666666667" />
         <entry key="..\:/Users/karp2/AndroidStudioProjects/Homework2/app/src/main/res/layout/fragment_settings.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/karp2/AndroidStudioProjects/Homework2/app/src/main/res/layout/item_dog.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/karp2/AndroidStudioProjects/Homework2/app/src/main/res/menu/menu_main.xml" value="0.25416666666666665" />
       </map>
     </option>

@@ -13,7 +13,7 @@
     <item
         android:id="@+id/catalogFragment"
         android:enabled="true"
-        android:icon="@drawable/ic_baseline_apps_24"
+        android:icon="@drawable/ic_pets_fill0_wght400_grad0_opsz48"
         android:title="@string/menu_catalog"/>
     <item
         android:id="@+id/settingsFragment"
